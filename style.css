@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	ackground-color:#E5E4E2;
+	opacity: 1;
+	 linear-gradient(rgba(0,163,255,0.3), rgba(0,168,225,0.3));
+ 
+}
+a
+{
+	font-size: 2.7vh;
+	margin-right: 4.5vh;
+}
+#anchor1
+{
+	font-family: 'Akaya Kanadaka', cursive;
+	font-size: 5vh;
+	margin-left: 9vh;
+	text-shadow: 2px 2px 4px;
+	background-color:linear-gradient(green,yellow)
+}
+
+.temname{
+	font-family: 'Akaya Kanadaka', cursive;
+		/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+		text-align: center;
+	}
+#hello
+{
+	color:yellow;
+}
+.main_div
+{
+	
+	width:100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,163,255,0.3), rgba(0,168,225,0.3)),url("https://source.unsplash.com/weekly?computer,nature");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+	ackground: linear-gradient(300deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+a:hover
+{
+	background-color:	#808080;
+}
+
+
+/**, *:before, *:after {
+  box-sizing: inherit;
+}*/
+/*about us designe */
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 14px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #98AFC7;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*servic design */
+
+card {
+    cursor: pointer
+}
+
+.hd {
+    font-size: 25px;
+    font-weight: 550
+}
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.img {
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+.card-title {
+    font-weight: 600
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important
+
+}
+
+.ft {
+    margin-top: 25px
+}
+
+.chk {
+    margin-bottom: 5px
+}
+
+.rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+
+/*Contact us designe page*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  display: inline-block;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit_button
+{
+	color:blue!important;
+	background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,57,196,1) 77%, rgba(0,212,255,1) 100%);
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.olumn {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
